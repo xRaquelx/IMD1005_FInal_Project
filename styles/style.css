@@ -1,1 +1,113 @@
+* {
+    box-sizing: border-box;
+    transition: all 0.3s linear;
+}
 
+.display-none {
+    display: none !important;
+}
+
+.opacity-none {
+    opacity: 0;
+}
+
+html::-webkit-scrollbar{
+    display: none;
+}
+
+body {
+    background-color: #ffffff;
+    min-height: 100vh;
+    height: 100%;
+    line-height: 1.5;
+    margin: 0;
+    display: grid;
+    grid-template-areas:
+        "header"
+        "main"
+        "footer";
+    grid-template-rows: auto 1fr auto;
+}
+
+/*---------------- Loading Screen CSS ----------------*/
+.loading-screen {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: -30;
+    left: -30;
+    width: calc(100vw + 60px);
+    height: calc(100vh + 60px);
+    z-index: 2;
+    background-color: bisque;
+}
+.loading-screen[opacity = 0] {
+    display: none;
+}
+
+.little-circle {
+    width: 15px;
+    height: 15px;
+    background-color: #E9A89B;
+    border-radius: 50%;
+    margin: 0 8px;
+    transition: transform 0.2s ease-out;
+}
+
+.little-circle.active {
+    transform: translateY(-20px);
+}
+
+.loading-text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+    opacity: 1;
+}
+
+/*---------------- Header CSS ----------------*/
+.header {
+    position: fixed;
+    background-color: bisque;
+    top: 0;
+    left: 0;
+    right: 0;
+    transition: all 0.3 ease-in-out;
+    z-index: 1;
+}
+
+.header-title {
+    display: flex;
+    position: absolute;
+    justify-content: center;
+    align-items: center;
+    z-index: 1;
+    width: 100%;
+}
+
+.header-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0;    
+    transition: all 0.3 ease-in-out;
+}
+
+.header-nav_items {
+    display: flex;
+    list-style-type: none;
+    align-items: center;
+    justify-content: center;
+}
+
+.header-nav_item a {
+    color: #000000;
+    text-decoration: none;
+    padding: 7px 15px;
+    transition: all 0.3 ease-in-out;
+}
