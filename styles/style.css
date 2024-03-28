@@ -27,6 +27,7 @@ body {
         "main"
         "footer";
     grid-template-rows: auto 1fr auto;
+    background-color: #6082FF;
 }
 
 /*---------------- Loading Screen CSS ----------------*/
@@ -73,7 +74,8 @@ body {
 /*---------------- Header CSS ----------------*/
 .header {
     position: fixed;
-    background-color: bisque;
+    background-color: #1E2020;
+    color: #ffffff;
     top: 0;
     left: 0;
     right: 0;
@@ -117,7 +119,8 @@ body {
 .footer {
     display: flex;
     width: 100vw;
-    background-color: bisque;
+    background-color: #193BB3;
+    color: #ffffff;
 }
 
 .footer-container {
