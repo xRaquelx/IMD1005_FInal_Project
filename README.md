@@ -10,8 +10,8 @@ Collaborators:
 
 This is a digital magazine webiste that contains the following files:
   - Home page (index.html)
-  - Article pages :
-      - xyz.html
+  - Article pages: articles.html
+      - article-laptop.html
       - xyz.html
       - xyz.html
       - xyz.html
@@ -19,5 +19,8 @@ This is a digital magazine webiste that contains the following files:
   - Credits page (credit.html)
   - Styles folder:
       - style.css
+      - index.css
+      - credits.css
   - Scripts folder:
       - script.js
+      - credits.css
