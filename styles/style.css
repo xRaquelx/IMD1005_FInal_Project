@@ -89,7 +89,6 @@ body {
     position: absolute;
     justify-content: center;
     align-items: center;
-    z-index: 1;
     width: 100%;
 }
 
@@ -106,6 +105,8 @@ body {
     list-style-type: none;
     align-items: center;
     justify-content: center;
+    position: relative;
+    cursor: pointer;
 }
 
 .header-nav_item a {
