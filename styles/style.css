@@ -89,7 +89,10 @@ body {
 .header > div {
     display:flex;
     justify-content: center;
-    padding:10px;
+    align-items: center;
+}
+.header > div > img{
+    width:10%;
 }
 
 .header-nav_items {
@@ -106,10 +109,12 @@ body {
     text-decoration: none;
     padding: 7px 15px;
     transition: all 0.3 ease-in-out;
+
 }
 
 /*---------------- Footer CSS ----------------*/
 footer {
+    border-top:#ffffff solid 50px;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -135,3 +140,51 @@ footer > div > div {
 footer > div > div > p{
     padding-left: 5px;
 }
+
+/*---------------- Fonts CSS ----------------*/
+
+h1{
+    font-family: "franklin-gothic-urw", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 4.2em;
+}
+
+h2{
+    font-family: "franklin-gothic-urw", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 2.5em; 
+}
+
+h3{
+    font-family: "franklin-gothic-urw", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 1.7em;
+}
+
+.lato-regular , p , a{
+    font-family: "Lato", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  .lato-bold , b {
+    font-family: "Lato", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+  }
+  
+  .lato-regular-italic , i {
+    font-family: "Lato", sans-serif;
+    font-weight: 400;
+    font-style: italic;
+  }
+  
+  .lato-bold-italic{
+    font-family: "Lato", sans-serif;
+    font-weight: 700;
+    font-style: italic;
+  }
+  
