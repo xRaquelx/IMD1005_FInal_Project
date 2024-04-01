@@ -3,7 +3,7 @@ body {
     flex-direction: column;     
     align-items: center;     
     justify-content: center;    
-    padding-top:25vh; 
+    padding-top:15vh;
     height: 100%;     
     margin: 0; 
 }
@@ -17,14 +17,64 @@ main{
 
 /* main sections */
 
-.call-to-action{
+.honeydew-background{
     background-color: #ebf6f2;
     padding: 50px;
     border-radius: 10px;
+    width: 70vw;
+    height: 50vh;
+}
+
+.scroller{
+    max-width: 100vw;
+    min-height: 80px;
+    overflow: hidden;
+    box-shadow: 0px 0px 10px 3px #c3d5cf;
+    /* mask: linear-gradient(90deg ,transparent, white 0%, white 100%, transparent); */
+}
+
+.cover-img{
+    height: fit-content;
+    /* display:flex; */
+    /* gap: 1rem; */
+    animation: slide 20s infinite ease-in-out;
+}
+
+.cover-img > li > a > img {
+    width:100%;
+}
+
+@keyframes slide {
+    0%{
+        transform: translatey(0%);
+    }
+    50%{
+        transform: translatey(-70%);
+    }
+    100%{
+        transform: translatey(0%);
+    }
 }
 
 .article-preview{
     display:grid;
+    grid-template-columns: 1fr 1fr;
+    position: relative;
+}
+
+.article-preview-discription{
+    padding-left: 20px;
+    display:flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.article-preview-discription > a{
+    text-align: center;
+    background-color:#193BB3;
+    color: #ffffff;
+    border-radius: 15px;
+    text-decoration: none;
 }
 
 .card img{
