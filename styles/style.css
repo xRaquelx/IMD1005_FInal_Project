@@ -236,3 +236,18 @@ h4{
     font-weight: 700;
     font-style: italic;
 }
+
+@media (max-width: 1080px) {
+
+    h1{
+        font-size: 1.5em;
+    }
+
+    .header > div > img {
+        width: 50%;
+    }
+
+    h2{
+        font-size: 1.3em;
+    }
+}
