@@ -1,48 +1,58 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
+    <meta name="description" content="Home page of Digital Magazine">
+    <meta name="keywords" content="HTML, CSS, JavaScript">
+    <meta name="author" content="Cayden, Vardaan, Baasit">
+
+    <link rel="stylesheet" href="styles/reset.css">
     <link rel="stylesheet" href="styles/style.css">
     <link rel="stylesheet" href="styles/index.css">
+    <link rel="stylesheet" href="https://use.typekit.net/sne8ywj.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+    
     <script src="scripts/script.js" defer></script>
 
     <title>Document</title>
 </head>
+
 <body>
     <div class="loading-screen">
         <span class="little-circle"></span>
         <span class="little-circle"></span>
         <span class="little-circle"></span>
     </div>
-    <header class="header">
-        <div class="header-container">
-            <div class="logo-img">
 
-            </div>
-            <div class="header-title">
-                <h1>Infinity Ink</h1>
-            </div>
-            <nav class="header-nav">
-                <ul class="header-nav_items">
-                    <li class="header-nav_item">
-                        <a href="/index.html">Home</a>
-                    </li>
-                    <li class="header-nav_item">
-                        <a href="/articles.html">Articles</a>
-                    </li>
-                    <li class="header-nav_item">
-                        <a href="/credits.html" class="active">Credits</a>
-                    </li>
-                </ul>
-            </nav>
+    <header class="header">
+
+        <div>
+            <h1>Infinity</h1>
+            <img src="images/InkLogo-white.png" alt="Ink logo">
         </div>
+        <ul class="header-nav_items">
+            <li class="header-nav_item">
+                <a href="/index.html">Home</a>
+            </li>
+            <li class="header-nav_item">
+                <a href="/articles.html">Articles</a>
+            </li>
+            <li class="header-nav_item">
+                <a href="/credits.html" class="active">Credits</a>
+            </li>
+        </ul>
     </header>
 
     <main>
-        <div class="Articles-call-to-actions">
-            
+        <div class="call-to-action article-preview">
+
             <ul class="cover-Img">
                 <li><a><img src="" alt="Image of Switch"></a></li>
                 <li><a><img src="" alt="Image of PS5"></a></li>
@@ -52,34 +62,41 @@
             </ul>
 
             <div>
-                <h3>Our Technology Articles</h3>
+                <h2>Our Technology Articles</h2>
                 <p>technology is constintly evolving, that is why its importent to stay up to date on whats now</p>
-                <a>click here for more</a>
+                <a><h3>click here for more</h3></a>
             </div>
         </div>
 
-        <div class="credits-call-to-action">
+        <div class="call-to-action credits-preview">
             <div class="card">
-                <img src="" alt="">
-                <p>HELLO Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut voluptatum molestias, odit aperiam quasi magnam.</p>
+                <img src="images/Cayden-with-spiderman.jpg" alt="Image of Cayden">
+                <p>HELLO Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut voluptatum molestias, odit aperiam
+                    quasi magnam.</p>
             </div>
             <div class="card">
-                <img src="" alt="">
-                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nobis esse nisi, distinctio modi dignissimos vero.</p>
+                <img src="" alt="Image of Rachel">
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nobis esse nisi, distinctio modi
+                    dignissimos vero.</p>
             </div>
             <div class="card">
-                <img src="" alt="">
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque veritatis atque numquam labore excepturi accusamus!</p>
+                <img src="" alt="Image of Vardaan">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque veritatis atque numquam labore
+                    excepturi accusamus!</p>
             </div>
             <div class="card">
-                <img src="" alt="">
-                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Numquam itaque vel placeat accusantium quis optio?</p>
+                <img src="" alt="Image of Baasit">
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Numquam itaque vel placeat accusantium quis
+                    optio?</p>
             </div>
             <div class="card">
-                <img src="" alt="">
-                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nobis et, ad officia non asperiores quo.</p>
+                <img src="" alt="Image of Lauren">
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nobis et, ad officia non asperiores quo.
+                </p>
             </div>
-            <a href="credits.html"><h1>Check out our GutHub!</h1></a>
+            <a href="credits.html">
+                <h1>Check out our GutHub!</h1>
+            </a>
         </div>
 
 
@@ -87,10 +104,22 @@
 
     <footer>
 
-        
+        <img src="images/InkLogo-white.png" alt="Ink Logo">
+        <div>
+            <h3 class="contributers">Contributers</h3>
+            <div>
+                <p>Cayden</p>
+                <p>Rachel</p>
+                <p>Vardaan</p>
+                <p>Baasit</p>
+                <p>Lauren</p>
+            </div>
+            <p>&copy;Copyright Infinity Ink</p>
+        </div>
 
     </footer>
 
 
 </body>
+
 </html>
