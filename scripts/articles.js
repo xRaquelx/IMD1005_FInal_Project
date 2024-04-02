@@ -23,7 +23,7 @@ It's positioned as a more powerful and versatile alternative to the standard iPa
 and creatives who demand more performance for tasks such as graphic design, video editing, and multitasking.`;
 
 const titles = ["Nintendo Switch", "PS5", "A6400 Sony Camera", "Laptop", "iPad"];
-const imgs = ["/images/nintendo-switch.jpg", "/images/ps5.jpg", "/images/sony-camera.jpg", "/images/Asus-laptop.png", ""];
+const imgs = ["/images/nintendo-switch.jpg", "/images/ps5.jpg", "/images/sony-camera.jpg", "/images/Asus-laptop.png", "/images/ipad-pro.jpeg"];
 const alts = [
     "Image of Nintendo Switch controllers in the front and screen behind",
     "Image of PS5 controller and console",
@@ -43,7 +43,7 @@ const links = [
     "/ps5.html",
     "/camera.html",
     "/laptop.html",
-    ""
+    "/ipad.html"
 ];
 
 

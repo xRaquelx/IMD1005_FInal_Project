@@ -1,6 +1,6 @@
 import Post from "./Post.js";
 
-const questions = ["What is it?", "How does it work?", "Pricing"];
+const questions = ["What is it?", "How does it work?", "Pricing", "Review"];
 const what = `
     In the ever-evolving world of photography, Sony has consistently been at the forefront of innovation, 
     offering cutting-edge technology in compact and powerful packages. The Sony A6400 is a prime example of this commitment, 
@@ -32,7 +32,11 @@ const price = `
     and online platforms. Whether you're purchasing in-store or online, be sure to check for special promotions or bundled deals 
     that may offer additional savings or accessories.
 `;
-const answers = [what, how, price];
+
+const review = `Overall, the Sony A6400 stands out as a highly capable and versatile mirrorless camera that punches well above its weight. 
+Whether you're a seasoned professional looking for a reliable backup camera or an enthusiast seeking to take your photography to the 
+next level, the A6400 is sure to impress with its performance, features, and value for money.`;
+const answers = [what, how, price, review];
 const laptopPost = new Post("Exploring the Sony A6400: A Compact Powerhouse in the Mirrorless Realm", "/images/sony-camera.jpg", "Image of Sony A6400", "", "", questions, answers);
 
 document.querySelector("main").appendChild(laptopPost.renderPostPage());
