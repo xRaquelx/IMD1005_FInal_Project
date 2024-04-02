@@ -14,7 +14,7 @@ export default class Post {
         card.className = "card";
         card.innerHTML = `
         <div class="card-img">
-            <img src="${this.img}" alt="${this.alt}">
+            <a href="${this.link}"> <img src="${this.img}" alt="${this.alt}"> </a>
         </div>
         <div class="card-info">
             <h1>${this.title}</h1>
