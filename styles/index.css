@@ -17,12 +17,8 @@ main{
 
 /* main sections */
 
-.honeydew-background{
+main > div{
     background-color: #ebf6f2;
-    padding: 50px;
-    border-radius: 10px;
-    width: 70vw;
-    height: 50vh;
 }
 
 .scroller{
@@ -60,6 +56,17 @@ main{
     display:grid;
     grid-template-columns: 1fr 1fr;
     position: relative;
+    padding: 50px;
+    border-radius: 10px;
+    width: 70vw;
+    height: 50vh;
+}
+
+.image-preview{
+    display:grid;
+    padding: 50px;
+    border-radius: 10px;
+    padding-bottom: 80px;
 }
 
 .article-preview-discription{
@@ -77,21 +84,102 @@ main{
     text-decoration: none;
 }
 
-.card img{
-    /* temporary, needs to be changed */
-    width:100px;
+
+.carousel {
+    background-color: #40c896;
+    position: relative;
+    /* height: 80vh; */
+    min-height: 400px;
+    width: 40vw;
+    min-width: 325px;
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+.carousel_items > img {
+    width:100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.carousel_track{
+    position:relative;
+    height: 100%;
+    transition: transform 300ms ease-in;
+}
+
+
+.carousel_track_container{
+    border-radius: 5px;
+    background-color: aliceblue;
+    height:100%;
+    position: relative;
+    overflow: hidden;
+    box-shadow: 0px 0px 5px 2px #063801;
+}
+.carousel_items{
+    position:absolute;
+    top: 0;
+    bottom: 0;
+    width:100%;
+}
+
+.carousel_button{
+    color: #0b6b00;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background: transparent;
+    border: none;
+}
+
+.carousel_button:hover{
+    color:#27D515;
+}
+
+.carousel_button--left{
+    left:-40px;
+    
+}
+.carousel_button--right{
+    right:-40px;
+}
+
+.carousel_nav {
+    display: flex;
+    justify-content: center;
+    padding:10px;
+}
+
+.carousel_indi{
+    border:0;
+    border-radius: 100%;
+    width:15px;
+    height:15px;
+    background-color: #193BB3;
+    margin: 0 10px;
+    cursor: pointer;
+}
+
+.carousel_nav .current_indi{
+    background-color: #ffffff;
+    width:16px;
+    height:16px;
+    
+}
+
+
+.is_hidden{
+    display:none;
 }
 
 @media (max-width: 1080px) {
-    .honeydew-background{
-        width: 90vw;
-    }
 
     .article-preview{
         grid-template-columns: 1fr;
-        grid-template-rows: auto 1fr;
-        height: 30%;
-
+        grid-template-rows: 1fr 1fr;
+        width: auto;
+        height: 60vh;
     }
 
     .article-preview-discription > a{
