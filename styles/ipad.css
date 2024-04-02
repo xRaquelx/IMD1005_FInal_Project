@@ -1,0 +1,100 @@
+body {
+    margin-top: 8rem;
+}
+
+.bodyGrid2 {
+    height: 40vh;
+    display: grid;
+    grid-template-columns: 0.5fr 1fr 1fr 1fr 0.5fr;
+    grid-template-rows: 1fr;
+}
+
+.bodyBoxes {
+    margin-left: 40px;
+    margin-right: 40px;
+    margin-top: 20px;
+    margin-bottom: 60px;
+    border-radius: 10px;
+    background: #ebf6f2;
+    grid-template-columns: 1fr;
+    grid-template-rows: 0.1fr 0.5fr;
+    padding: 20px;
+}
+
+
+.bodyBoxesTitle {
+    padding: 20px;
+    text-align: center;
+    font-size: 30px;
+}
+
+.bodyBoxesText {
+    text-align: center;
+}
+
+
+
+.grid1 {
+
+    height: 47vh;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+    background: #ebf6f2;
+    border-radius: 10px;
+    margin: 40px;
+    margin-left: 400px;
+    margin-right: 400px;
+}
+
+.grid1text {
+    text-align: center;
+}
+
+.grid1box {
+    padding: 20px;
+    object-fit: center;
+}
+
+.grid3 {
+    height: 20vh;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+    background: #ebf6f2;
+    border-radius: 10px;
+    margin: 40px;
+    margin-left: 215px;
+    margin-right: 215px;
+}
+
+.grid3text {
+    text-align: center;
+}
+
+.ipadpic {
+    margin: auto;
+}
+
+.bodyBoxesText2 {
+    text-align: center;
+}
+
+.bodyBoxesTitle2 {
+    padding: 10px;
+    padding-bottom: 10px;
+    text-align: center;
+    font-size: 30px;
+}
+
+.bodyBoxes2 {
+    margin-left: 215px;
+    margin-right: 215px;
+    margin-top: 20px;
+    margin-bottom: 60px;
+    border-radius: 10px;
+    background: #ebf6f2;
+    grid-template-columns: 1fr;
+    grid-template-rows: 0.1fr 0.5fr;
+    padding: 20px;
+}
