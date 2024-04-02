@@ -18,8 +18,9 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 
-    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
-    
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;1,400;1,700&display=swap"
+        rel="stylesheet">
+
     <script src="scripts/script.js" defer></script>
 
     <title>Infinity Ink Tech Review</title>
@@ -52,7 +53,7 @@
     </header>
 
     <main>
-        <div class="honeydew-background article-preview">
+        <div class="article-preview">
             <div class="scroller">
                 <ul class="cover-img">
                     <li><a><img src="images/nintendo-switch.jpg" alt="Image of Switch"></a></li>
@@ -65,61 +66,87 @@
 
             <div class="article-preview-discription">
                 <h2>Our Technology</h2>
-                <p>In today's fast-paced world, technology is evolving at an unprecedented rate, revolutionizing the way we live, work, and interact with the world around us. From breakthroughs in artificial intelligence and machine learning to advancements in quantum computing and biotechnology, the landscape of technology is constantly shifting, presenting both opportunities and challenges for individuals and businesses alike.</p>
-                <a href="/articles.html"><h3>click here for more</h3></a>
+                <p>In today's fast-paced world, technology is evolving at an unprecedented rate, revolutionizing the way
+                    we live, work, and interact with the world around us. From breakthroughs in artificial intelligence
+                    and machine learning to advancements in quantum computing and biotechnology, the landscape of
+                    technology is constantly shifting, presenting both opportunities and challenges for individuals and
+                    businesses alike.</p>
+                <a href="/articles.html">
+                    <h3>click here for more</h3>
+                </a>
             </div>
         </div>
 
-        <div class="honeydew-background credits-preview">
-            <div class="card">
-                <img src="images/Cayden-with-spiderman.jpg" alt="Image of Cayden">
-                <p>HELLO Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut voluptatum molestias, odit aperiam
-                    quasi magnam.</p>
+        <div class="image-preview">
+
+            <div class="carousel">
+                <button class="carousel_button carousel_button--right">
+                    <h2>]</h2>
+                </button>
+
+                <div class="carousel_track_container">
+                    <ul class="carousel_track">
+                        <li class="carousel_items open_slide">
+                            <img src="images/Cayden-with-spiderman.jpg" alt="Cayden at mayan runes">
+                        </li>
+                        <li class="carousel_items">
+                            <img src="images/nintendo-switch-docked-mode.png" alt="Cayden in italy">
+                        </li>
+                        <li class="carousel_items">
+                            <img src="images/Cayden-with-spiderman.jpg" alt="Cayden playing soccer">
+                        </li>
+                        <li class="carousel_items">
+                            <img src="images/Cayden-with-spiderman.jpg" alt="Cayden with spiderman">
+                        </li>
+                        <li class="carousel_items">
+                            <img src="images/Cayden-with-spiderman.jpg" alt="Cayden in wolves uniform">
+                        </li>
+                        <li class="carousel_items">
+                            <img src="images/Cayden-with-spiderman.jpg" alt="Cayden in a suit with an AMG">
+                        </li>
+                    </ul>
+                </div>
+
+                <button class="carousel_button carousel_button--left is_hidden">
+                    <h2>[</h2>
+                </button>
+                <div class="carousel_nav">
+                    <button class="carousel_indi current_indi"></button>
+                    <button class="carousel_indi"></button>
+                    <button class="carousel_indi"></button>
+                    <button class="carousel_indi"></button>
+                    <button class="carousel_indi"></button>
+                    <button class="carousel_indi"></button>
+                </div>
             </div>
-            <div class="card">
-                <img src="" alt="Image of Rachel">
-                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nobis esse nisi, distinctio modi
-                    dignissimos vero.</p>
-            </div>
-            <div class="card">
-                <img src="" alt="Image of Vardaan">
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque veritatis atque numquam labore
-                    excepturi accusamus!</p>
-            </div>
-            <div class="card">
-                <img src="" alt="Image of Baasit">
-                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Numquam itaque vel placeat accusantium quis
-                    optio?</p>
-            </div>
-            <div class="card">
-                <img src="" alt="Image of Lauren">
-                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nobis et, ad officia non asperiores quo.
-                </p>
-            </div>
-            <a href="credits.html">
-                <h1>Check out our GutHub!</h1>
-            </a>
         </div>
 
 
     </main>
 
     <footer>
-        <div class="footer-logo"> 
+        <div class="footer-logo">
             <img src="images/Ink-logo-footer.png" alt="Ink Logo">
             <p>&copy;Copyright Infinity Ink</p>
         </div>
-            
+
 
 
         <div class="footer-pages">
-            <a href=""><h4>Home</h4></a>
-            <a href=""><h4>Contributers</h4></a>
-            <a href=""><h4>Articles</h4></a>
+            <a href="">
+                <h4>Home</h4>
+            </a>
+            <a href="">
+                <h4>Contributers</h4>
+            </a>
+            <a href="">
+                <h4>Articles</h4>
+            </a>
         </div>
 
     </footer>
 
+    <script src="scripts/carousel.js"></script>
 
 </body>
 
