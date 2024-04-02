@@ -1,0 +1,189 @@
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.title{
+    background-color: #ebf6f2;
+    padding: 250px;
+    border-radius: 25px;
+}
+
+.title h1{
+    font-size: 75px
+}
+
+.subtitle{
+    color: black;
+    /* background-color: #193BB3; */
+   /* padding-left: 20rem; */
+   /* padding-right: 20rem; */
+    /* flex: 1; */
+    padding-top: 15px;
+    padding-bottom: 15px;
+    width: 100%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.subititle h2{
+    text-align: center;
+}
+
+.horizontal-line{
+    height: 2px;
+    width: 45%;
+    background-color: #193BB3;
+    border-radius: 15px;
+}
+
+.info{
+    background-color: #ebf6f2;
+    margin-left: 25px;
+    margin-right: 25px;
+    padding: 25px;
+    border-radius: 25px;
+}
+
+.info h3 {
+    font-family: "Anta", sans-serif;
+}
+
+.info p{
+    font-family: "lato", sans-serif;
+    font-size: 18px;
+    color: black;
+}
+
+.info-grid{
+    display: grid;
+    grid-gap: 40px;
+}
+
+.what{
+    padding-bottom: 10px;
+}
+
+.what-container{
+    display: grid;
+    grid-template-columns: auto 1fr;
+}
+
+.what-container img{
+    width: 300px;
+    height: 100%;
+    padding-right: 15px;
+}
+
+.what-container p{
+    padding-top: 30px;
+}
+
+
+.how{
+    padding-bottom: 10px;
+    text-align: left;
+}
+
+.how-container{
+    display: grid;
+    grid-template-columns: 1fr auto;
+}
+
+.how-container img{
+    width: 300px;
+    height: 100%;
+    padding-right: 15px;
+}
+
+.price{
+    grid-column: 1;
+}
+
+.price-container{
+    display: grid;
+    grid-template-columns: auto 1fr;
+}
+
+.price-container img{
+    width: 100%;
+    height: 220px;
+    padding-right: 15px;
+}
+
+.review{
+    grid-column: 2;
+}
+
+.author p{
+    font-weight: bold;
+    font-style: italic;
+}
+
+@media (max-width: 1080px)
+{
+    /* main{
+        max-width: 100vw;
+    } */
+    
+    .title{
+        background-color: #ebf6f2;
+        padding-top: 30px;
+        padding-bottom: 30px;
+        border-radius: 25px;
+    }
+    
+    .title h1{
+        font-size: 30px;
+        width: 100%;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .subtitle{
+        color: black;
+        /* background-color: #193BB3; */
+       /* padding-left: 20rem; */
+       /* padding-right: 20rem; */
+        /* flex: 1; */
+        padding-top: 15px;
+        padding-bottom: 15px;
+        width: 100%;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        font-size: 10px;
+        font-weight: bold;
+    }
+    
+    .info{
+        background-color: #ebf6f2;
+        margin-left: 25px;
+        margin-right: 25px;
+        padding: 10px;
+        border-radius: 25px;
+    }
+
+    .info img{
+        display: none;
+        /* tried to do it but decided it looked better with no images */
+        /* width: 250px;
+        height: 150px; */
+    }
+
+    .info h3{
+        font-size: 18px;
+    }
+
+    .info p{
+        font-size: 15px;
+    }
+}

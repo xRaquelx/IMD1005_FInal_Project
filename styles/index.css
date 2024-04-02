@@ -10,7 +10,7 @@ body {
 
 main{
     display:grid;
-    grid-template-rows: 1fr 1fr;
+    grid-template-rows: auto auto;
     grid-gap:50px;
 }
 
@@ -69,6 +69,24 @@ main > div{
     padding-bottom: 80px;
 }
 
+.image-preview h2 {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 1rem;
+    padding-top: 0;
+    cursor: pointer;
+}
+
+.image-preview a {
+    text-decoration: none;
+    color:#193BB3;
+    transition: 0.1s;
+}
+
+.image-preview a:hover {
+    color:#9ba5ca;
+}
+
 .article-preview-discription{
     padding-left: 20px;
     display:flex;
@@ -84,6 +102,9 @@ main > div{
     text-decoration: none;
 }
 
+.article-preview-discription a:hover {
+    transform: scale(1.05);
+}
 
 .carousel {
     background-color: #40c896;
@@ -115,7 +136,7 @@ main > div{
     height:100%;
     position: relative;
     overflow: hidden;
-    box-shadow: 0px 0px 5px 2px #063801;
+    box-shadow: 0px 0px 5px 2px #193BB3;
 }
 .carousel_items{
     position:absolute;
@@ -125,7 +146,7 @@ main > div{
 }
 
 .carousel_button{
-    color: #0b6b00;
+    color: #193BB3;
     position: absolute;
     top: 50%;
     transform: translateY(-50%);
@@ -134,7 +155,7 @@ main > div{
 }
 
 .carousel_button:hover{
-    color:#27D515;
+    color:#c0caf0;
 }
 
 .carousel_button--left{
@@ -162,7 +183,7 @@ main > div{
 }
 
 .carousel_nav .current_indi{
-    background-color: #ffffff;
+    background-color: #c0caf0;
     width:16px;
     height:16px;
     
